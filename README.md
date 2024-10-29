@@ -10,7 +10,7 @@ To write a program to implement the Decision Tree Regressor Model for Predicting
 ## Algorithm:
 1. Load the Salary.csv dataset, display the initial rows (head), and examine the data structure (info) to check for missing values.
 
-2.Encode the "Position" column using LabelEncoder to convert it into numeric format, making it suitable for regression modeling.
+ 2.Encode the "Position" column using LabelEncoder to convert it into numeric format, making it suitable for regression modeling.
 
 3. Define the feature set x (including "Position" and "Level") and target y ("Salary"), and split these into training and testing sets with an 80-20 ratio using train_test_split.
 
